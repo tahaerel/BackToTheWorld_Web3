@@ -9100,7 +9100,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5785991126134150016, guid: dcce254945e65f14aa3052d99d5c1182, type: 3}
       propertyPath: m_text
-      value: "YETERS\u0130Z KAYNAK"
+      value: "INSUFFICIENT RESOURCES\r"
       objectReference: {fileID: 0}
     - target: {fileID: 5785991126134150019, guid: dcce254945e65f14aa3052d99d5c1182, type: 3}
       propertyPath: m_SizeDelta.y
