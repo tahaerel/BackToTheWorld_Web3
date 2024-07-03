@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Solana.Unity.Wallet;
-
+using UnityEngine.SceneManagement;
 // ReSharper disable once CheckNamespace
 
 namespace Solana.Unity.SDK.Example
@@ -101,7 +101,8 @@ namespace Solana.Unity.SDK.Example
             if (account != null)
             {
                 dropdownRpcCluster.interactable = false;
-                manager.ShowScreen(this, "wallet_screen");
+                // manager.ShowScreen(this, "wallet_screen");
+                SceneManager.LoadScene(1);
                 messageTxt.gameObject.SetActive(false);
                 gameObject.SetActive(false);
             }
