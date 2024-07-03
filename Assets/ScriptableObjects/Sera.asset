@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Sera
   sellPrice: 1
   rarity: {fileID: 11400000, guid: c8289caefda48284daa5078573f0b1a3, type: 2}
-  useText: '100 Demir '
-  gerekli_kaynak2: 120 Enerji
-  gerekli_kaynak3: 150 Su
-  gerekli_kaynak4: "2 \u0130nsan"
+  useText: '100 Iron '
+  gerekli_kaynak2: 120 Energy
+  gerekli_kaynak3: 150 Water
+  gerekli_kaynak4: 2 People

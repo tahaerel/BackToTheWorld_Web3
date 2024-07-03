@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635e78c6f61ea514cb122ef4f4fa2a0d, type: 3}
   m_Name: Miner
   m_EditorClassIdentifier: 
-  name: "Kaz\u0131c\u0131"
+  name: Digger
   sellPrice: 1
   rarity: {fileID: 11400000, guid: 2702395d36a9e3848b511611840c36bd, type: 2}
-  useText: '50 Demir '
-  gerekli_kaynak2: 80 Enerji
-  gerekli_kaynak3: "1 \u0130nsan"
+  useText: '50 Iron '
+  gerekli_kaynak2: 80 Energy
+  gerekli_kaynak3: '1 Person '
   gerekli_kaynak4: 

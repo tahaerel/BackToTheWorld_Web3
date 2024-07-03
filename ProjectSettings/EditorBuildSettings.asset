@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 499a10c1ced03b94bb5db591a785492a
   - enabled: 1
-    path: Assets/Scenes/GameBeko.unity
-    guid: 253a2d62c9fb584489edee8736baabb3
+    path: Assets/Scenes/Game.unity
+    guid: 4a9459ffc47e2f64ab1132666a1de632
   m_configObjects: {}

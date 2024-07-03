@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635e78c6f61ea514cb122ef4f4fa2a0d, type: 3}
   m_Name: Ust_Energy
   m_EditorClassIdentifier: 
-  name: Enerji
+  name: Energy
   sellPrice: 1
   rarity: {fileID: 11400000, guid: 8ce4e05f6aaeca840966ddb28a8ee2f4, type: 2}
-  useText: "G\xFCne\u015F Paneli"
+  useText: Solar Panel
+  gerekli_kaynak2: '-'
+  gerekli_kaynak3: '-'
+  gerekli_kaynak4: '-'

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d84887a3a56a434a9b664d116a753c2, type: 3}
   m_Name: Ust_Plant_Gain
   m_EditorClassIdentifier: 
-  name: "Yemek Miktar\u0131n\u0131 G\xF6sterir"
+  name: Amount of Food
   textColour: {r: 0.9529412, g: 0.5294118, b: 0.34509805, a: 1}

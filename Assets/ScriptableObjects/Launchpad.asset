@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635e78c6f61ea514cb122ef4f4fa2a0d, type: 3}
   m_Name: Launchpad
   m_EditorClassIdentifier: 
-  name: "Roket F\u0131rlat\u0131c\u0131"
+  name: Launcher
   sellPrice: 1
   rarity: {fileID: 11400000, guid: e88872819e740ee46b46d45d4d6cf5cd, type: 2}
-  useText: 500 Demir
-  gerekli_kaynak2: 300 Enerji
-  gerekli_kaynak3: 200 Su
-  gerekli_kaynak4: "20 \u0130nsan"
+  useText: 500 Iron
+  gerekli_kaynak2: 300 Energy
+  gerekli_kaynak3: 200 Water
+  gerekli_kaynak4: 20 People

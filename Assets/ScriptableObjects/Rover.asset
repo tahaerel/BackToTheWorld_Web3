@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Rover
   sellPrice: 1
   rarity: {fileID: 11400000, guid: 9a4c6ca29c3fe3a43bb60db84c3c88a7, type: 2}
-  useText: 100 Demir
+  useText: 100 Iron
   gerekli_kaynak2: 
   gerekli_kaynak3: 
   gerekli_kaynak4: 

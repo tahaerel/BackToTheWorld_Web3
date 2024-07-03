@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d84887a3a56a434a9b664d116a753c2, type: 3}
   m_Name: SeraGaain
   m_EditorClassIdentifier: 
-  name: +30 Yemek / 10s
+  name: +30 Food / 10s
   textColour: {r: 0.95294124, g: 0.5294118, b: 0.34509805, a: 1}

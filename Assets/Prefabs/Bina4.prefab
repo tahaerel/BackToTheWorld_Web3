@@ -136,7 +136,7 @@ MonoBehaviour:
   demir: 20
   yemek: 0
   koloni: 0
-  zamanAraligi: 8
+  zamanAraligi: 5
   Binaid: 3
   is_stone: 0
   is_water: 0

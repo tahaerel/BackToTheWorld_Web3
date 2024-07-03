@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635e78c6f61ea514cb122ef4f4fa2a0d, type: 3}
   m_Name: Ust_Colony
   m_EditorClassIdentifier: 
-  name: "\u0130nsan"
+  name: Person
   sellPrice: 1
   rarity: {fileID: 11400000, guid: 136423ecec69bc3489adc881abe400f3, type: 2}
-  useText: "\xDCs"
+  useText: Base
+  gerekli_kaynak2: '-'
+  gerekli_kaynak3: '-'
+  gerekli_kaynak4: '-'

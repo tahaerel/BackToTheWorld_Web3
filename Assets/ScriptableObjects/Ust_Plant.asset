@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635e78c6f61ea514cb122ef4f4fa2a0d, type: 3}
   m_Name: Ust_Plant
   m_EditorClassIdentifier: 
-  name: Yemek
+  name: Food
   sellPrice: 1
   rarity: {fileID: 11400000, guid: 87bc598db4f1f834bbc703355ff5d205, type: 2}
-  useText: Sera
+  useText: Greenhouse
+  gerekli_kaynak2: '-'
+  gerekli_kaynak3: '-'
+  gerekli_kaynak4: '-'

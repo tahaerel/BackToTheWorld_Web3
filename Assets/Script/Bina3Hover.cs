@@ -6,8 +6,8 @@ using UnityEngine.EventSystems;
 public class Bina3Hover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public BinaYerlestirme bnb;
-    public static string colorRed3 = "<color=red>Yetersiz : ";
-    public static string colorgreen3 = "<color=green>Gerekli : ";
+    public static string colorRed3 = "<color=red>Insufficient : ";
+    public static string colorgreen3 = "<color=green>Need : ";
     
 
     public static bool Bina3demir_yeter;

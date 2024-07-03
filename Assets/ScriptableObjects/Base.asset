@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635e78c6f61ea514cb122ef4f4fa2a0d, type: 3}
   m_Name: Base
   m_EditorClassIdentifier: 
-  name: "\xDCs"
+  name: Base
   sellPrice: 1
   rarity: {fileID: 11400000, guid: 498cf617d9268544fb79edb0dd0ba46a, type: 2}
-  useText: '250 Enerji '
-  gerekli_kaynak2: 150 Demir
-  gerekli_kaynak3: 100 Yemek
+  useText: '250 Energy '
+  gerekli_kaynak2: 150 Iron
+  gerekli_kaynak3: 100 Food
   gerekli_kaynak4: 

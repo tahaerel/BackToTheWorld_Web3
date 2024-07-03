@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635e78c6f61ea514cb122ef4f4fa2a0d, type: 3}
   m_Name: SolarEnergy
   m_EditorClassIdentifier: 
-  name: "G\xFCne\u015F Paneli"
+  name: Solar panel
   sellPrice: 1
   rarity: {fileID: 11400000, guid: f830f104a82a664409b2a1d54a90135a, type: 2}
   useText: '-'
-  gerekli_kaynak2: 30 Demir
+  gerekli_kaynak2: 30 Iron
   gerekli_kaynak3: '-'
   gerekli_kaynak4: '-'
