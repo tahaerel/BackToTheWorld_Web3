@@ -10,11 +10,15 @@ using Solana.Unity.Rpc.Types;
 using Solana.Unity.SDK;
 using Solana.Unity.Wallet;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class NftMint : MonoBehaviour
 {
     public GameObject success, notsuccess;
     public BinaYerlestirme kaynakmiktar;
+    public Button buybutton;
+    public  TextMeshProUGUI buytext;
     public void MintNft()
     {
         StartMinting().Forget();
@@ -115,7 +119,8 @@ public class NftMint : MonoBehaviour
             kaynakmiktar.demirMiktar -= 1000;
             renkdegis();
             upgrade();
-
+            buybutton.interactable = false;
+            buytext.text = "Purchased";
             StartCoroutine(wait());
         }
 

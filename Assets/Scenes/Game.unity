@@ -3798,7 +3798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &402592481
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3806,18 +3806,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 402592480}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3447186, y: 1.3447186, z: 1.3447186}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 139609333}
-  m_Father: {fileID: 2080475480}
-  m_RootOrder: 13
+  m_Father: {fileID: 1722089259}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1010.3}
+  m_AnchoredPosition: {x: 0, y: -41.10942}
   m_SizeDelta: {x: 354.9854, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &402592482
@@ -6130,7 +6130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &685930009
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6138,18 +6138,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685930008}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3447186, y: 1.3447186, z: 1.3447186}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 161404242}
-  m_Father: {fileID: 2080475480}
-  m_RootOrder: 14
+  m_Father: {fileID: 1722089259}
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1010.3}
+  m_AnchoredPosition: {x: 0, y: -41.10942}
   m_SizeDelta: {x: 354.9854, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &685930010
@@ -11127,6 +11127,8 @@ MonoBehaviour:
   success: {fileID: 402592480}
   notsuccess: {fileID: 685930008}
   kaynakmiktar: {fileID: 208458090}
+  buybutton: {fileID: 1135675381}
+  buytext: {fileID: 699367425}
 --- !u!114 &1135675381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16294,6 +16296,8 @@ RectTransform:
   - {fileID: 1084922499}
   - {fileID: 107595384}
   - {fileID: 1526366604}
+  - {fileID: 402592481}
+  - {fileID: 685930009}
   m_Father: {fileID: 2080475480}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16909,9 +16913,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 397729089919283571, guid: 7535c6e4bc22ec742a7ccc3643d6116a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 148
+      objectReference: {fileID: 0}
     - target: {fileID: 397729089919283596, guid: 7535c6e4bc22ec742a7ccc3643d6116a, type: 3}
       propertyPath: m_text
       value: "Want to save your score for Planet 1?\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 397729089919283596, guid: 7535c6e4bc22ec742a7ccc3643d6116a, type: 3}
+      propertyPath: m_fontSize
+      value: 40.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 397729089919283596, guid: 7535c6e4bc22ec742a7ccc3643d6116a, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 40.09
       objectReference: {fileID: 0}
     - target: {fileID: 397729089932031426, guid: 7535c6e4bc22ec742a7ccc3643d6116a, type: 3}
       propertyPath: m_text
@@ -17028,6 +17044,10 @@ PrefabInstance:
     - target: {fileID: 397729090364067100, guid: 7535c6e4bc22ec742a7ccc3643d6116a, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 397729090751695427, guid: 7535c6e4bc22ec742a7ccc3643d6116a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 210
       objectReference: {fileID: 0}
     - target: {fileID: 397729090751695452, guid: 7535c6e4bc22ec742a7ccc3643d6116a, type: 3}
       propertyPath: m_text
@@ -19266,12 +19286,12 @@ GameObject:
   - component: {fileID: 2008760843}
   - component: {fileID: 2008760842}
   m_Layer: 0
-  m_Name: test
+  m_Name: NFTControl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2008760842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19284,6 +19304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb9eb4a6db9242444955e0958c702276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nftStatusText: {fileID: 0}
 --- !u!4 &2008760843
 Transform:
   m_ObjectHideFlags: 0
@@ -19871,8 +19892,6 @@ RectTransform:
   - {fileID: 910291480}
   - {fileID: 1518965487}
   - {fileID: 1722089259}
-  - {fileID: 402592481}
-  - {fileID: 685930009}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -32007,6 +32026,8 @@ MonoBehaviour:
   success: {fileID: 0}
   notsuccess: {fileID: 0}
   kaynakmiktar: {fileID: 0}
+  buybutton: {fileID: 0}
+  buytext: {fileID: 0}
 --- !u!222 &4671878357351111046
 CanvasRenderer:
   m_ObjectHideFlags: 0
