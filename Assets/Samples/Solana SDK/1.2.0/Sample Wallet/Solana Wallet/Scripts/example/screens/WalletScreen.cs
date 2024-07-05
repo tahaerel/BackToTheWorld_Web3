@@ -8,7 +8,8 @@ using codebase.utility;
 using Cysharp.Threading.Tasks;
 using Solana.Unity.Extensions;
 using Solana.Unity.Rpc.Types;
-
+using UnityEngine.SceneManagement;
+using System.Collections;
 // ReSharper disable once CheckNamespace
 
 namespace Solana.Unity.SDK.Example
@@ -76,6 +77,8 @@ namespace Solana.Unity.SDK.Example
                 manager.ShowScreen(this, "login_screen");
                 if(parentManager != null)
                     parentManager.ShowScreen(this, "[Connect_Wallet_Screen]");
+
+                SceneManager.LoadScene(0);
             });
             
             savePrivateKeyBtn.onClick.AddListener(SavePrivateKeyOnClick);

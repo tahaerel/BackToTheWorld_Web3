@@ -113,12 +113,10 @@ public class ResourceChanger : MonoBehaviour
     {
         if (other.gameObject.tag == "demir")
         {
-            Debug.Log("Demirdesin");
             is_stone = true;
         }
         if (other.gameObject.tag == "su")
         {
-            Debug.Log("Sudasýn");
             is_water = true;
         }
     }

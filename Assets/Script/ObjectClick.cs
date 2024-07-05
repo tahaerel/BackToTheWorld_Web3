@@ -4,23 +4,21 @@ using UnityEngine;
 
 public class ObjectClick : MonoBehaviour
 {
-    public static bool  panelopen; // Inspector üzerinden atayacaðýnýz panel
+    public static bool  panelopen; 
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Sol mouse týklandýðýnda
+        if (Input.GetMouseButtonDown(0)) 
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit))
             {
-                // Týklanan objenin bu scripte sahip olup olmadýðýný kontrol et
                 if (hit.transform == this.transform)
                 {
                     Debug.Log("test");
-                    // Paneli aktif et
-                    panelopen = false;
+                    panelopen = true;
                 }
             }
         }

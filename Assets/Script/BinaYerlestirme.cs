@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BinaYerlestirme : MonoBehaviour
 {
@@ -27,10 +28,10 @@ public class BinaYerlestirme : MonoBehaviour
     public int bina4EnergyMaliyet = 20;
     public int bina4koloniMaliyet = 1;
 
-    public int bina5demirMmaliyet = 500;
-    public int bina5yenergyMaliyet = 100;
-    public int bina5ySuMaliyet = 200;
-    public int bina5KoloniMaliyet = 20;
+    public int bina5demirMmaliyet = 5000;
+    public int bina5yenergyMaliyet = 1000;
+    public int bina5ySuMaliyet = 1000;
+    public int bina5KoloniMaliyet = 40;
 
     public int roverdemirmaliyet = 100;
 
@@ -41,6 +42,15 @@ public class BinaYerlestirme : MonoBehaviour
     public int bina5UretimMiktari = 20;
     public int RoveruretimMiktari = 20;
 
+    public Button upgradebutton;
+    private void LateUpdate()
+    {
+        if (demirMiktar >= 1000)
+        {
+            upgradebutton.interactable = true;
+        }
+        else { upgradebutton.interactable = false;}
+    }
 
 
 }

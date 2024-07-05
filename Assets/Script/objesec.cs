@@ -12,15 +12,9 @@ public class objesec : MonoBehaviour
     public GameObject Error,RoverButton,Roverimage;
     public static int index;
     public Image Rovertask;
+   
 
-
-    //private void Update()
-    //{
-    //    if(bnb.enerjiMiktar >= bnb.bina1EnerjiMaliyet)
-    //    {
-
-    //    }
-    //}
+   
     public void olustur(int deger)
     {
 

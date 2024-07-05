@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 // ReSharper disable once CheckNamespace
 
@@ -16,5 +17,10 @@ public class WalletHolder : MonoBehaviour
         toggleWallet_btn.onClick.AddListener(() => {
             wallet.SetActive(!wallet.activeSelf);
         });
+    }
+
+    public void sceneload()
+    {
+        SceneManager.LoadScene(1);
     }
 }

@@ -25,7 +25,7 @@ namespace Solana.Unity.SDK.Example
         public TMP_InputField passwordInputField;
         [SerializeField]
         public TextMeshProUGUI needPasswordTxt;
-
+        public GameObject playbutton,completepanel;
 
         private void Start()
         {
@@ -81,7 +81,11 @@ namespace Solana.Unity.SDK.Example
             try
             {
                 await Web3.Instance.CreateAccount(mnemonic, password);
-                manager.ShowScreen(this, "wallet_screen");
+                //   manager.ShowScreen(this, "wallet_screen");
+                playbutton.SetActive(true);
+                completepanel.SetActive(true);
+                this.gameObject.SetActive(false);
+
                 needPasswordTxt.gameObject.SetActive(false);
             }
             catch (Exception ex)

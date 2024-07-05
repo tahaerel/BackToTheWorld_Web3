@@ -506,6 +506,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: ded5d28a4666b954882e5f04c6fa4ca8, type: 2}
+    - target: {fileID: -516098083770646512, guid: 31d9f3593d8c4e341a0d9cfff372332b, type: 3}
+      propertyPath: m_Name
+      value: Renk
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 31d9f3593d8c4e341a0d9cfff372332b, type: 3}
       propertyPath: m_Name
       value: isimsiz (1)

@@ -29,7 +29,7 @@ namespace Solana.Unity.SDK.Example
         private TextMeshProUGUI messageTxt;
         [SerializeField]
         private TMP_Dropdown dropdownRpcCluster;
-
+        public GameObject playbutton,logincomplete;
         private void OnEnable()
         {
             dropdownRpcCluster.interactable = true;
@@ -102,7 +102,9 @@ namespace Solana.Unity.SDK.Example
             {
                 dropdownRpcCluster.interactable = false;
                 // manager.ShowScreen(this, "wallet_screen");
-                SceneManager.LoadScene(1);
+                playbutton.SetActive(true); logincomplete.SetActive(true);
+
+                //   SceneManager.LoadScene(1);
                 messageTxt.gameObject.SetActive(false);
                 gameObject.SetActive(false);
             }
